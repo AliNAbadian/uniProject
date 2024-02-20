@@ -12,11 +12,11 @@
         <h2 class="header">محاسبه BMI ، شاخص توده بدنی</h2><hr />
         <form runat="server">
                 <div class="grid-container">
-                    <asp:Label CssClass="Labels grid-item" ID="Label1" runat="server" Text="قد"></asp:Label>
-                    <asp:TextBox CssClass="grid-item" ID="TextBox1" runat="server">سانتی متر</asp:TextBox>
+                    <asp:Label  CssClass="Labels grid-item" ID="Label1" runat="server" Text="قد"></asp:Label>
+                    <asp:TextBox placeholder="مثالا 1.7 متر" CssClass="grid-item" ID="TextBox1" runat="server"></asp:TextBox>
                     <asp:Label CssClass="Labels grid-item" ID="Label2" runat="server" Text="وزن"></asp:Label>
-                    <asp:TextBox CssClass="grid-item" ID="TextBox2" runat="server"></asp:TextBox>
-                    <asp:Button CssClass="grid-item" ID="Button1" runat="server" Text="محاسبه" />
+                    <asp:TextBox placeholder="مثلا 65 کیلوگرم" CssClass="grid-item" ID="TextBox2" runat="server"></asp:TextBox>
+                    <asp:Button CssClass="grid-item" ID="Button1" runat="server" Text="محاسبه" OnClick="Button1_Click" />
                     <asp:Label CssClass="grid-item Labels" ID="Label3" runat="server" Text=""></asp:Label>
                 </div>
         </form>
