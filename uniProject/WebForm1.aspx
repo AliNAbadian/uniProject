@@ -4,13 +4,22 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title></title>
+    <title>محاسبه گر شاخص توده بدنی</title>
+    <link rel="stylesheet" href="style.css" />
 </head>
-<body>
-    <form id="form1" runat="server">
-        <div>
-            <h1>Hello World!</h1>
-        </div>
-    </form>
+<body dir="rtl">
+    <section>
+        <h2 class="header">محاسبه BMI ، شاخص توده بدنی</h2><hr />
+        <form runat="server">
+                <div class="grid-container">
+                    <asp:Label CssClass="Labels grid-item" ID="Label1" runat="server" Text="قد"></asp:Label>
+                    <asp:TextBox CssClass="grid-item" ID="TextBox1" runat="server">سانتی متر</asp:TextBox>
+                    <asp:Label CssClass="Labels grid-item" ID="Label2" runat="server" Text="وزن"></asp:Label>
+                    <asp:TextBox CssClass="grid-item" ID="TextBox2" runat="server"></asp:TextBox>
+                    <asp:Button CssClass="grid-item" ID="Button1" runat="server" Text="محاسبه" />
+                    <asp:Label CssClass="grid-item Labels" ID="Label3" runat="server" Text=""></asp:Label>
+                </div>
+        </form>
+    </section>
 </body>
 </html>

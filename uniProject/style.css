@@ -1,0 +1,66 @@
+﻿@font-face {
+    font-family: Shabnam;
+    src: url(fonts/Shabnam.ttf) format('ttf');
+}
+@font-face {
+    font-family: Shabnam;
+    src: url(fonts/Shabnam.woff) format('woff');
+}
+@font-face {
+    font-family: Shabnam;
+    src: url(fonts/Shabnam.eot) format('eot');
+}
+@font-face {
+    font-family: Shabnam;
+    src: url(fonts/Shabnam.woff2) format('woff2');
+}
+* {
+    text-align: center;
+    font-family: Shabnam;
+    font-size: 25px;
+}
+.header {
+    color: #4B6289;
+}
+hr{
+    border: none;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+    background-color: #60316E;
+    padding: 20px 20px;
+    border-radius: 20px;
+    max-width: 60%;
+    margin: auto;
+}
+
+.grid-item {
+    background-color: #A3F7BF;
+    padding: 20px;
+    text-align: center;
+    border: 5px medium #511281;
+    border-radius: 8px;
+    max-width: contain;
+}
+
+.Labels {
+    grid-column: 1;
+    grid-row: auto;
+}
+
+.grid-item:nth-child(2n) {
+    grid-column: 2;
+    grid-row: auto;
+}
+.Labels {
+    color: #60316E;
+}
+#Button1{
+    cursor: pointer;
+}
+#Button1:hover{
+    background-color: 
+}
